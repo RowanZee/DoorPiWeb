@@ -1,4 +1,4 @@
-DoorPiWeb - Weboberfläche für DoorPi
+DoorPiWeb - Wen Interface for DoorPi
 ================
 
 Dieses Repository hat zwei Funktionen.
