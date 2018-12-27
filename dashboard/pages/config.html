@@ -63,7 +63,7 @@
 											key: key_name,
 											value: value,
 											default_value: 'text',
-											description: 'beschreibung'
+											description: 'Description'
 										});
 									});
 								});
@@ -73,11 +73,11 @@
 						//data: oPraparedConfigForConfigTable,
 						"displayLength": 100,
 						"columns": [
-							{ "data": "section", "title": "Sektion", "visible": false },
-							{ "data": "key", "title": "Schlüssel" },
-							{ "data": "value", "title": "Wert" },
-							{ "data": "default_value", "title": "Vorgabe", "readonly": true },
-							{ "data": "description", "title": "Beschreibung" }
+							{ "data": "section", "title": "Section", "visible": false },
+							{ "data": "key", "title": "Key" },
+							{ "data": "value", "title": "Value" },
+							{ "data": "default_value", "title": "Default Value", "readonly": true },
+							{ "data": "description", "title": "Description" }
 						],
 						"drawCallback": function ( settings ) {
 							var api = this.api();
@@ -494,15 +494,15 @@
 				<div class="col-lg-6" style="display: none;" id="idPanelWarningNotSave">
                     <div class="panel panel-red">
 						<div class="panel-heading">
-							<i class="fa fa-bar-chart-o fa-fw">Hinweis</i>
+							<i class="fa fa-bar-chart-o fa-fw">Note</i>
 						</div>
 						<!-- /.panel-heading -->
 						<div class="panel-body">
-							Die Konfiguration wurde verändert, aber noch nicht als Datei abgespeichert.
+							The configuration has been changed, but not yet saved as a file.
 						</div>
 						<!-- /.panel-body -->
 						<div class="panel-footer">
-							Bitte den Button "Save Config" zum Speichern der Config nutzen.
+							Please use the button "Save Config" to save the config.
 						</div>
 						<!-- /.panel-footer -->
 					</div>
@@ -514,7 +514,7 @@
                 <div class="col-lg-12">
                     <div class="panel panel-primary">
 						<div class="panel-heading">
-							<i class="fa fa-bar-chart-o fa-fw">Konfiguration</i>
+							<i class="fa fa-bar-chart-o fa-fw">Configuration</i>
 						</div>
 						<!-- /.panel-heading -->
 						<div class="panel-body">

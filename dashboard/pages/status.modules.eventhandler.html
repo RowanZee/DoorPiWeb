@@ -9,7 +9,7 @@
                         <!-- /.panel-heading -->
                         <div class="panel-body">
 							<ul class="nav nav-tabs">
-								<li class="active"><a href="#idEventHandlerDescription" data-toggle="tab" aria-expanded="true">Beschreibung</a></li>
+								<li class="active"><a href="#idEventHandlerDescription" data-toggle="tab" aria-expanded="true">Description</a></li>
 								<li class=""><a href="#idTableModulStatus" data-toggle="tab" aria-expanded="false">Module</a></li>
 							</ul>
 							<div class="tab-content">
@@ -32,7 +32,7 @@
                     <!-- /.panel -->
 					<div class="panel panel-primary">
                         <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o"></i>Übersichten
+                            <i class="fa fa-bar-chart-o"></i>Overviews
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -54,8 +54,8 @@
                                 <!-- /.modal-dialog -->
                             </div>
 							<ul class="nav nav-tabs">
-								<li class="active"><a href="#EventAction" data-toggle="tab" aria-expanded="true">aktive Events</a></li>
-								<li class=""><a href="#SourceEvent" data-toggle="tab" aria-expanded="false">aktive Quellen</a></li>
+								<li class="active"><a href="#EventAction" data-toggle="tab" aria-expanded="true">Active Events</a></li>
+								<li class=""><a href="#SourceEvent" data-toggle="tab" aria-expanded="false">Active Source</a></li>
 								<li class=""><a href="#EventHistory" data-toggle="tab" aria-expanded="false">Event Histroy</a></li>
 								<li class=""><a href="#idThreads" data-toggle="tab" aria-expanded="false">Threads</a></li>
 							</ul>
@@ -154,11 +154,11 @@
 							"iDisplayLength": -1,
 							"colReorder": true,
 							"columns": [
-								{ "data": "modul_area_name", "title": "Bereich" },
-								{ "data": "modul_name", "title": "Modul" },
+								{ "data": "modul_area_name", "title": "Area" },
+								{ "data": "modul_name", "title": "Module" },
 								{ "data": "installed", "title": "Status" },
-								{ "data": "file", "title": "Datei" },
-								{ "data": "link", "title": "Hilfe" }
+								{ "data": "file", "title": "File" },
+								{ "data": "link", "title": "Link" }
 							]
 						});
 					});
@@ -187,7 +187,7 @@
 						"colReorder": true,
 						"columns": [
 							{ "data": "event_name", "title": "Eventname" },
-							{ "data": "order_id", "title": "Reihenfolge" },
+							{ "data": "order_id", "title": "Sequence" },
 							{ "data": "action_name", "title": "Action" }
 						]
 					});
@@ -240,7 +240,7 @@
 						"iDisplayLength": -1,
 						"aButtons": ["refresh"],
 						"columns": [
-							{ "data": "source_name", "title": "Quelle" },
+							{ "data": "source_name", "title": "Source" },
 							{ "data": "fire_button", "title": "Button" }
 						]
 					});
@@ -262,7 +262,7 @@
 						"columns": [
 							{ "data": "event_id", "title": "ID" },
 							{ "data": "event_name", "title": "Eventname" },
-							{ "data": "fired_by", "title": "ausgelöst durch" },
+							{ "data": "fired_by", "title": "Triggred By" },
 							{ "data": "start_time", "title": "Starttime", "type": "date" }
 						]
 					});
@@ -305,7 +305,7 @@
 						"aButtons": ["refresh"],
 						"columns": [
 							{ "data": "thread_name", "title": "Name" },
-							{ "data": "thread_title", "title": "Titel" },
+							{ "data": "thread_title", "title": "Title" },
 							{ "data": "start_time", "title": "Starttime", "type": "date" }
 						]
 					});
